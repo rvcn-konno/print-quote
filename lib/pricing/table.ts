@@ -18,6 +18,7 @@ export const pricingTable: PricingRow[] = [
   { min: 1101, max: 1200, double: 12300, single: 11300 },
   { min: 1201, max: 1300, double: 12800, single: 11800 },
   { min: 1301, max: 1400, double: 13300, single: 12300 },
+  { min: 1401, max: 1500, double: 13800, single: 12800 },
 ];
 
 export const MAX_QUOTABLE_QUANTITY = pricingTable[pricingTable.length - 1].max;
